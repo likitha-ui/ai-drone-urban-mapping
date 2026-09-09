@@ -136,6 +136,55 @@ This project was developed as a solution for a hackathon challenge focused on ap
 ## 👩‍💻 Team
 
 Developed as a team project for Hackathon 2026.
+## How to Run
+
+### Step 1: Clone the Repository
+
+Download or clone this repository to your computer.
+
+### Step 2: Install Requirements
+
+Install the required Python libraries using:
+
+    pip install -r requirements.txt
+
+### Step 3: Provide Drone Image
+
+Place the drone image in the `results` folder.
+
+Example:
+
+    results/drone.jpeg
+
+### Step 4: Run Preprocessing
+
+Run the preprocessing module to prepare the drone image.
+
+    python src/preprocessing/preprocess.py
+
+### Step 5: Extract Features
+
+Run the feature extraction module.
+
+    python src/feature_extraction/features.py
+
+### Step 6: Detect Urban Parcels
+
+Run the parcel detection module.
+
+    python src/parcel_detection/detect.py
+
+### Step 7: Visualize Results
+
+Run the visualization module.
+
+    python src/visualization/visualize.py
+
+## Project Status
+
+This project demonstrates an AI-based workflow for automated urban
+mapping, cadastral feature extraction, parcel detection, and
+visualization using drone imagery.
 
 ## 📜 License
 
